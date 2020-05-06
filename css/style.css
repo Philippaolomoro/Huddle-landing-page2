@@ -1,0 +1,259 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: hsl(192, 100%, 9%);
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+#header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4.375rem;
+}
+.sec1 {
+  margin-top: 13rem;
+}
+.l-r-marg {
+  margin: 0 4.375rem;
+}
+.header-btn {
+  color: hsl(322, 100%, 66%);
+  border: 1px solid hsl(322, 100%, 66%);
+  width: 9.375rem;
+  height: 2.5rem;
+  background-color: #fff;
+  font-size: 1rem;
+  border-radius: 1.563rem;
+  cursor: pointer;
+}
+.btn:focus {
+  outline: none;
+}
+.btn:active {
+  transform: translateY(0.2rem);
+  border: none;
+}
+.sec1-heading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.063rem;
+  font-weight: 700;
+}
+#sec1-txt {
+  width: 34.375rem;
+  margin: 0 auto;
+  line-height: 1.8rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.sec-btn {
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  border: 1px solid hsl(322, 100%, 66%);
+  border-radius: 3.125rem;
+  width: 21.875rem;
+  height: 4.375rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  cursor: pointer;
+}
+.sec2 {
+  margin-top: 6.125rem;
+}
+.sec3 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 6.25rem;
+}
+.pack {
+  width: 3.125rem;
+}
+.sec3-num {
+  font-size: 5.313rem;
+  font-weight: 700;
+}
+.sec4 {
+  margin-top: 6.25rem;
+  display: grid;
+  row-gap: 2rem;
+}
+.img {
+  width: 30.625rem;
+}
+.part1 {
+  width: 31.25rem;
+  text-align: start;
+  font-size: 0.938rem;
+}
+.second-part {
+  padding: 4.375rem 0;
+}
+.display {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.sec4-spec-bd {
+  background-color: #f6fbff;
+}
+.bd-img-cont {
+  height: 10.438rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bd-img-cont1 {
+  background-image: url(../images/bg-section-top-desktop-1.svg);
+}
+.bd-img-cont2 {
+  background-image: url(../images/bg-section-bottom-desktop-1.svg);
+}
+.bd-img-cont3 {
+  background-image: url(../images/bg-section-top-desktop-2.svg);
+}
+.bd-img-cont4 {
+  background-image: url(../images/bg-section-bottom-desktop-2.svg);
+}
+.part-cont {
+  display: grid;
+}
+.place-self-center {
+  place-self: center;
+}
+.sec4-mes {
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+.sec4-heading {
+  font-size: 2.313rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+.sec7 {
+  margin-top: 130px;
+}
+.sec7-btn {
+  margin-top: 0.5rem;
+}
+#footer {
+  display: grid;
+  text-align: start;
+  margin-top: 150px;
+}
+.bd-fr-img-cont {
+  background-image: url(../images/bg-footer-top-desktop.svg);
+}
+.footer-prt2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #01262f;
+  color: #fff;
+}
+.fr-width {
+  width: 250px;
+  margin-left: 130px;
+}
+.newsletter-txt,
+.footer-txt {
+  font-size: 0.75rem;
+  line-height: 1.3rem;
+}
+.mn-top {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.newsletter-txt {
+  width: 280px;
+}
+.attribution {
+  font-size: 0.85rem;
+  padding-top: 15px;
+  line-height: 1.2rem;
+}
+.attribution a {
+  color: white;
+}
+.attribution a:hover {
+  color: hsl(322, 100%, 66%);
+}
+.icons-cont {
+  margin-top: 60px;
+}
+.icons-img {
+  width: 40px;
+}
+.icons-link {
+  padding-right: 13px;
+}
+.phone-cont {
+  padding-top: 10px;
+}
+.con-cont {
+  margin-top: 13px;
+  font-size: 0.9rem;
+}
+.con {
+  padding-left: 20px;
+}
+.newsletters {
+  margin-left: 150px;
+}
+.newsletter-title {
+  font-weight: 700;
+}
+.btns {
+  height: 42px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.btns:focus {
+  outline: none;
+}
+#textarea {
+  width: 290px;
+  border: 1px solid white;
+  font-size: 1rem;
+  cursor: unset;
+  color: hsl(192, 100%, 9%);
+}
+.subscribe-cont {
+  margin-top: 38px;
+}
+.subscribe-btn {
+  height: 42px;
+  width: 145px;
+  margin-left: 20px;
+  background-color: hsl(322, 100%, 66%);
+  border: 1px solid hsl(322, 100%, 66%);
+  color: white;
+}
+.subscribe-btn:active {
+  transform: translateY(0.2rem);
+  border: none;
+}
